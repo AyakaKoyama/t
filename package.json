@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@lazarv/react-server": "^0.0.0-experimental-d24f1e6-20250215-2e3908d4",
+    "convex": "^1.19.2",
     "lucide-react": "^0.475.0"
   }
 }

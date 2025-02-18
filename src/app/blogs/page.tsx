@@ -1,5 +1,3 @@
-function page() {
+export default function PageName() {
   return <div>Blogs</div>;
 }
-
-export default page;
