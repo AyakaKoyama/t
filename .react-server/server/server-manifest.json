@@ -1,0 +1,67 @@
+{
+  "_entrypoint.C07s9TWF.mjs": {
+    "file": "server/entrypoint.C07s9TWF.mjs",
+    "name": "entrypoint",
+    "imports": [
+      "_react-server.DjwuI6zJ.mjs"
+    ],
+    "dynamicImports": [
+      "virtual:__react_server_router_page__/src/app::/home/ayaka_koyama/workspace/tech-article-app/src/app/page.tsx::.jsx",
+      "_page.7l38tb2c.mjs"
+    ]
+  },
+  "_page.7l38tb2c.mjs": {
+    "file": "server/page.7l38tb2c.mjs",
+    "name": "page",
+    "isDynamicEntry": true
+  },
+  "_react-server.DjwuI6zJ.mjs": {
+    "file": "server/@lazarv/react-server.DjwuI6zJ.mjs",
+    "name": "@lazarv/react-server"
+  },
+  "node_modules/@lazarv/react-server/lib/plugins/file-router/entrypoint.jsx": {
+    "file": "server/index.mjs",
+    "name": "server/index",
+    "src": "node_modules/@lazarv/react-server/lib/plugins/file-router/entrypoint.jsx",
+    "isEntry": true,
+    "imports": [
+      "_entrypoint.C07s9TWF.mjs",
+      "_react-server.DjwuI6zJ.mjs"
+    ]
+  },
+  "node_modules/@lazarv/react-server/server/GlobalError.jsx": {
+    "file": "server/error.mjs",
+    "name": "server/error",
+    "src": "node_modules/@lazarv/react-server/server/GlobalError.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react-server.DjwuI6zJ.mjs"
+    ]
+  },
+  "node_modules/@lazarv/react-server/server/render-rsc.jsx": {
+    "file": "server/render.mjs",
+    "name": "server/render",
+    "src": "node_modules/@lazarv/react-server/server/render-rsc.jsx",
+    "isEntry": true,
+    "imports": [
+      "_react-server.DjwuI6zJ.mjs"
+    ]
+  },
+  "virtual:__react_server_router_page__/src/app::/home/ayaka_koyama/workspace/tech-article-app/src/app/page.tsx::.jsx": {
+    "file": "server/page.tsx__.8JaUaSgI.mjs",
+    "name": "page.tsx__",
+    "src": "virtual:__react_server_router_page__/src/app::/home/ayaka_koyama/workspace/tech-article-app/src/app/page.tsx::.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-server.DjwuI6zJ.mjs",
+      "_entrypoint.C07s9TWF.mjs",
+      "_page.7l38tb2c.mjs"
+    ]
+  },
+  "virtual:config/prebuilt": {
+    "file": "server/__react_server_config__/prebuilt.mjs",
+    "name": "server/__react_server_config__/prebuilt",
+    "src": "virtual:config/prebuilt",
+    "isEntry": true
+  }
+}
